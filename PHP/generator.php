@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		This is a name Generator written by Christian Stokkebekk in Des. 2012.
-		The names generated are intended for fictional orginizations, such as guilds, shops and taverns.
-		The code should be available on my github: https://github.com/Zilter/guildNameGenerator
 	</head>
 	<body>
+		This is a name generator written by Christian Stokkebekk in Des. 2012. <br>
+		The names generated are intended for fictional orginizations, such as guilds, shops and taverns. <br>
+		The code should be available on my github: https://github.com/Zilter/guildNameGenerator <br><br><br>
 		<form action="generator.php" method="get">
 			How many names do you want?
 			<br>
@@ -13,6 +13,8 @@
 			<br>
 			<br>
 			<input type="submit" value="Generate" />
+			<br>
+			<br>
 		</form>
 	</body>
 </html>
@@ -32,15 +34,15 @@ if (isset($_GET["number"])) {
 	if ($_GET["number"] > 100) {
 		
 		$numberOfNames = 100;
-		echo "Requested too many names. Showing 100:\n\n";
+		echo "Requested too many names. Showing 100: <br><br>";
 	} 
 	else {
 		$numberOfNames = $_GET["number"];
 	}
 	
 	$prefixChance = 40;
-	$adjectiveChance = 60;
-	$suffixChance = 30;
+	$adjectiveChance = 75;
+	$suffixChance = 40;
 
 	$prefix = inputFile("prefix.txt");
 	$adjective = inputFile("adjective.txt");
