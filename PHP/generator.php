@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		This is a name Generator written by Christian Stokkebekk in Des. 2012.
