@@ -54,4 +54,5 @@ Shape(s)
 Scales
 Sisters
 Brothers
-Station
+Sons
+Daughters

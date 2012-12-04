@@ -22,3 +22,8 @@ White
 Gray
 Brown
 Silent
+Favored
+Primal
+Blind
+Fighting
+Withering

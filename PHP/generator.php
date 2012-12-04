@@ -50,6 +50,9 @@ if (isset($_GET["number"])) {
 	$suffix = inputFile("suffix.txt");
 
 	for ($i = 0; $i < $numberOfNames; $i++) {
+		if (rand(0,99) < 50) {
+			echo "The ";			
+		}
 		if (rand(0, 99) < $prefixChance) {
 			echo $prefix[rand(0, sizeof($prefix) - 1)] . " ";
 		}
