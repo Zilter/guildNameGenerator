@@ -1,0 +1,4 @@
+C:\Users\Evan\Documents\GitHub\guildNameGenerator\C#\GuildNameGenerator\GuildNameGenerator\bin\Debug\GuildNameGenerator.exe
+C:\Users\Evan\Documents\GitHub\guildNameGenerator\C#\GuildNameGenerator\GuildNameGenerator\bin\Debug\GuildNameGenerator.pdb
+C:\Users\Evan\Documents\GitHub\guildNameGenerator\C#\GuildNameGenerator\GuildNameGenerator\obj\x86\Debug\GuildNameGenerator.exe
+C:\Users\Evan\Documents\GitHub\guildNameGenerator\C#\GuildNameGenerator\GuildNameGenerator\obj\x86\Debug\GuildNameGenerator.pdb
